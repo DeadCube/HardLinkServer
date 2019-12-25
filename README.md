@@ -3,7 +3,7 @@
 **HardLink** est un plugin permettant de faire en sorte qu'un site (*php*) puisse envoyer des évenements en temps réel sur le serveur !
 
 ## Utilisation
-*Je vous conseille de configurer [la partie Minecraft](url) avant la partie serveur*
+*Je vous conseille de configurer [la partie Minecraft](https://github.com/DeadCube/HardLinkMinecraft/) avant la partie serveur*
 Tout d'abord, il faut configurer la **RCON** de votre serveur dans le début du fichier HardLink.php
 
     $host = "localhost";
@@ -29,4 +29,4 @@ Il ne vous reste plus qu'a remplacer les valeurs des `input:hidden` !
 ## A propos
 Ce plugin à été développé par Fir3rl ! J'espère qu'il vous aidera bien ! N'hésitez pas à ouvrir des issues lors de problèmes où à me contacter sur discord (Fir3rl#5549) !
 
-[Aller voir la partie minecraft](url)
+[Aller voir la partie minecraft](https://github.com/DeadCube/HardLinkMinecraft/)
