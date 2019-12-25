@@ -7,6 +7,7 @@ $password="root";
  * more information about Source RCON Packets
  *
  * @copyright 2013 Chris Churchwell, 2019 Fir3rl
+ * @version 0.1
  */
 class Rcon {
 
