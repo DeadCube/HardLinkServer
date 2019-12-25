@@ -1,15 +1,15 @@
 
-# HighLinkPHP
-**HighLink** est un plugin permettant de faire en sorte qu'un site (*php*) puisse envoyer des évenements en temps réel sur le serveur !
+# HardLinkPHP
+**HardLink** est un plugin permettant de faire en sorte qu'un site (*php*) puisse envoyer des évenements en temps réel sur le serveur !
 
 ## Utilisation
 *Je vous conseille de configurer [la partie Minecraft](url) avant la partie serveur*
-Tout d'abord, il faut configurer la **RCON** de votre serveur dans le début du fichier HighLink.php
+Tout d'abord, il faut configurer la **RCON** de votre serveur dans le début du fichier HardLink.php
 
     $host = "localhost";
     $port="25566";
     $password="root";
-Pour envoyer une requête au serveur, il faut envoyer une requête **POST** pointant vers le fichier HighLink.php avec pour paramètres :
+Pour envoyer une requête au serveur, il faut envoyer une requête **POST** pointant vers le fichier HardLink.php avec pour paramètres :
 
 **sk** : String -> Clé secrète,sans espaces, pour assurer une sécurité optimale ! 
 
@@ -19,7 +19,7 @@ Pour envoyer une requête au serveur, il faut envoyer une requête **POST** poin
 
 Et pour les flemmards, voici un code spécialement pour vous !
 
-    <form action="HighLink.php">
+    <form action="HardLink.php">
       <input type="hidden" name="sk" value="SECRETKEY">
       <input type="hidden" name="key" value="sendmsg">
       <input type="hidden" name="val" value="Je suis sur le site web">
